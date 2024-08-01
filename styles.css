@@ -35,16 +35,19 @@ body {
   border-radius: 4px;
   pointer-events: none;
 }
-.main-container {
+.main-form-container {
   /* border: 1px solid red; */
   height: 90vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .heading-h1 {
   font-size: 32px;
   color: #003561;
   margin: 50px auto 5px;
+  margin-left: 50%;
 }
 .heading-h2 {
   font-size: 26px;
@@ -89,4 +92,13 @@ body {
   font-size: 16px;
   color: orangered;
   display: none;
+}
+
+.user-plaform-profile {
+  /* border: 2px solid salmon; */
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
