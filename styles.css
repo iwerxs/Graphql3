@@ -37,7 +37,9 @@ body {
 }
 .main-form-container {
   /* border: 1px solid red; */
-  height: 90vh;
+  min-height: 100vh;
+  background-color: #fafafa;
+  border: 2px solid #2393cd;
   display: flex;
   flex-direction: column;
   justify-content: center;
